@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="survey.css">
+    <link  href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header">
+      <nav>
+        <p id="header">The Pros and Cons of HTML</p>
+        <ul class="nav-links" style="list-style: none;">
+          <li><a href="index.html">Back Home</a></li>
+          <li><a href="Random_pics.html">Random Pictures</a></li>
+          <li><a href="fun.html">Fun Game :&#93;</a></li>
+        </ul>
+      </nav>
+    </div>
+    <hr>
+    <div class="container">
+      <form action="action_page.php">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">First Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+          </div>
+        </div> 
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Last Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          </div>
+        </div>
+        
+        
+        
+        
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Rating.</label>
+          </div>
+        </div>
+        <p></p>
+        
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Why did you rate it this?</label>
+          </div>
+          <div class="col-75">
+          
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          </div>
+        </div>
+        
+        <div class="rating">
+          <input type="radio" name="star" id="star1">
+          <label for="star1"></label>
+          
+          <input type="radio" name="star" id="star2">
+          <label for="star2"></label>
+          
+          <input type="radio" name="star" id="star3">
+          <label for="star3"></label>
+          
+          <input type="radio" name="star" id="star4">
+          <label for="star4"></label>
+          
+          <input type="radio" name="star" id="star5">
+          <label for="star5"></label>
+        </div>
+        
+        
+        
+        <div class="row">
+          <a href="submit.html" id="submit">Submit</a>
+        </div> 
+      </form>
+    </div>
+  </body>
+</html>
